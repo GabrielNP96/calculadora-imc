@@ -1,0 +1,20 @@
+{
+  "name": "calculadora_imc_js",
+  "version": "0.0.1",
+  "description": "Calculadora de indice de massa corporal.",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielNP96/calculadora-imc.git"
+  },
+  "author": "Gabriel N.P.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GabrielNP96/calculadora-imc/issues"
+  },
+  "homepage": "https://github.com/GabrielNP96/calculadora-imc#readme"
+}
