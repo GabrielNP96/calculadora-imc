@@ -94,3 +94,15 @@ a:hover {
 a:active {
     color: rgb(0, 0, 0);
 }
+
+div > .red {
+    color: red;
+}
+
+div > .green {
+    color: green;
+}
+
+div > .orange {
+    color: orange;
+}

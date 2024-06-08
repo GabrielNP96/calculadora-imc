@@ -9,19 +9,19 @@ function imcResult(imc) {
     let answer = document.querySelector('#answer')
 
     if(imc < 18.5 ) {
-        return answer.innerHTML = `Seu imc é ${imc} e você está abaixo do peso.`;
+        return answer.innerHTML = `Seu imc é <span class="red">${imc}</span> e você está abaixo do peso.`;
     } else if(imc > 18.6 && imc < 24.9 ) {
-        return answer.innerHTML = `Seu imc é ${imc} e você está no peso ideal.`;
+        return answer.innerHTML = `Seu imc é <span class="green">${imc}</span> e você está no peso ideal.`;
     } else if(imc > 25.0 && imc < 29.9) {
-        return answer.innerHTML = `Seu imc é ${imc} e você está levemente acima do peso.`;
+        return answer.innerHTML = `Seu imc é <span class="orange">${imc}</span> e você está levemente acima do peso.`;
     } else if(imc > 30.0 && imc < 34.9) {
-        return answer.innerHTML = `Seu imc é ${imc} e você está com grau I de obesidade.`;
+        return answer.innerHTML = `Seu imc é <span class="red">${imc}</span> e você está com grau I de obesidade.`;
     } else if(imc > 35.0 && imc < 39.9) {
-        return answer.innerHTML = `Seu imc é ${imc} e você está com grau II de obesidade.`;
+        return answer.innerHTML = `Seu imc é <span class="red">${imc}</span> e você está com grau II de obesidade.`;
     } else if (imc > 40.0) {
-        return answer.innerHTML = `Seu imc é ${imc} e você está com grau III de obesidade.`;
+        return answer.innerHTML = `Seu imc é <span class="red">${imc}</span> e você está com grau III de obesidade.`;
     } else {
-        return answer.innerHTML = 'Erro...'
+        return answer.innerHTML = '<span class="red">Erro...</span>'
     }
 
 }
