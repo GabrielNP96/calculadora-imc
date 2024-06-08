@@ -1,6 +1,6 @@
 {
   "name": "calculadora_imc_js",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Calculadora de indice de massa corporal.",
   "main": "main.js",
   "scripts": {
