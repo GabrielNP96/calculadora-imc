@@ -25,6 +25,9 @@ function imcResult(imc) {
 
     }
 
+function showInHtml(string) {
+    document.querySelector('#answer').innerHTML = string
+}
  
 btnSend.addEventListener('click', () => {
     let weight = document.querySelector('#weight').value
@@ -36,7 +39,8 @@ btnSend.addEventListener('click', () => {
     let imc = weight / (height ** 2)
         imc = imc.toFixed(2)
 
-    console.log(imcResult(imc))
+    let userImc = imcResult(imc)
+    showInHtml(userImc)
 
 
 })

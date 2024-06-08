@@ -53,6 +53,7 @@ button {
     padding: 10px 30px;
     border: none;
     align-items: center;
+    margin-bottom: 4%;
 }
 
 button:hover {
