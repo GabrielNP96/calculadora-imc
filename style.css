@@ -20,7 +20,7 @@ body {
 main {
     display: inline-block;
     width: 48%;
-    height: auto;
+    height: 59%;
     padding: 1%;
     border-radius: 1vh;
     background-color: white;
@@ -38,7 +38,7 @@ hr {
 }
 
 label, input {
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 input {
@@ -47,12 +47,12 @@ input {
 }
 
 button {
-font-weight: 400;
-color: #fff;
-background-color: rgba(114,133,242,1);
-padding: 10px 30px;
-border: none;
-align-items: center;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgba(114,133,242,1);
+    padding: 10px 30px;
+    border: none;
+    align-items: center;
 }
 
 button:hover {
